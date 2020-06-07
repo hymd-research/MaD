@@ -1,0 +1,251 @@
+[
+    {
+        "Id": "a9b712a4e6dab5736f0ec47af022125495587437749e03a7ecb31345ae86e7e7",
+        "Created": "2020-04-19T17:10:03.5446394Z",
+        "Path": "tini",
+        "Args": [
+            "-g",
+            "--",
+            "start-notebook.sh"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 1924,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2020-05-19T06:08:48.2568206Z",
+            "FinishedAt": "2020-04-28T01:48:44.3082802Z"
+        },
+        "Image": "sha256:eaac14a737dba4368154c8472d6df93d5086c625c21ac22fe2ebbcf8e9d0554f",
+        "ResolvConfPath": "/var/lib/docker/containers/a9b712a4e6dab5736f0ec47af022125495587437749e03a7ecb31345ae86e7e7/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/a9b712a4e6dab5736f0ec47af022125495587437749e03a7ecb31345ae86e7e7/hostname",
+        "HostsPath": "/var/lib/docker/containers/a9b712a4e6dab5736f0ec47af022125495587437749e03a7ecb31345ae86e7e7/hosts",
+        "LogPath": "/var/lib/docker/containers/a9b712a4e6dab5736f0ec47af022125495587437749e03a7ecb31345ae86e7e7/a9b712a4e6dab5736f0ec47af022125495587437749e03a7ecb31345ae86e7e7-json.log",
+        "Name": "/MaD",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/Users/hymd/Programming/MaD:/home/jovyan/work"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "default",
+            "PortBindings": {
+                "8888/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8888"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "CapAdd": null,
+            "CapDrop": null,
+            "Capabilities": null,
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "KernelMemory": 0,
+            "KernelMemoryTCP": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/22661e456188ea569c71056a890622ce5f4a1c3856eb2549cc254f55f0802c47-init/diff:/var/lib/docker/overlay2/8e1ebe1c2241f4e70bbf0eea6e31d96e1e47651e362a0abfb77ead099e25135d/diff:/var/lib/docker/overlay2/16121f29488aac7e20b8ada177bd41c20d44972687e0073457fd6b14b7bca2d6/diff:/var/lib/docker/overlay2/f519176c9f17578606144bc6ddc1afa2a9827fa3f1fe651e1211ac5870d83b93/diff:/var/lib/docker/overlay2/92bbbc8155e3d49817daa60ede345729b03a766f434268f4438120858e9d1629/diff:/var/lib/docker/overlay2/279da15218e0a39c7397f56905ad9a0853a9370967b9f85dc8cd345d7ccd68eb/diff:/var/lib/docker/overlay2/4d0c360b7fc015af9ff1b81148a07485a768386c5007ebf3195980cf3a0e8f17/diff:/var/lib/docker/overlay2/0085a87272d68bd59f089f9e99253db6c7dc790332ade383d06cf4088d334d15/diff:/var/lib/docker/overlay2/5e2af7fff6d9c1cb6db6b949d0be54d99ebee3e5bb77a3bd84a4e013d53e15f4/diff:/var/lib/docker/overlay2/98bcd9e81a823510defc0ab3981c54a76b383ef001b18e5ee2ab04061c63f875/diff:/var/lib/docker/overlay2/5e6709c483933f852abb3941a5144b0ccd7e4d77e00e48cd91ecc04ed5374baa/diff:/var/lib/docker/overlay2/087624bae515ad3beec1fae04d912ceecdbd75bf693daf1550d83a4ef562fda7/diff:/var/lib/docker/overlay2/cce693b7cbb8f52acb076e3218184f8c6e83279766ed2689986b0f3c25144694/diff:/var/lib/docker/overlay2/befb83e33098c7c5e2627c19709c065726e6d8f2ec0e3cc69b74d1010c6cea43/diff:/var/lib/docker/overlay2/6f3178455526a704536626a98370c7d3c00d1596e59fc802644a5a9987239c5f/diff:/var/lib/docker/overlay2/892566e9bbf8912689794cea9ada149b9a07974ae1d817677a7a186163f8c9f3/diff:/var/lib/docker/overlay2/466169d14b94bf5204ea122fa47f05d42b1d247e9c9f176d1b62bef077254431/diff:/var/lib/docker/overlay2/e0c117cab3de5f89ab4f6939c3ef787eecd38a6fe70381667e27421cc1daac2a/diff:/var/lib/docker/overlay2/355f5ede49bd11d865e2ad5dbfd134936600f7c2041ce68667357c7ed589de2a/diff:/var/lib/docker/overlay2/e4c69afe43210d53b3b654bdd2e9bed4fb2aa5f4bd5a7090f737bbbd159392b5/diff:/var/lib/docker/overlay2/6e369bfc605ff4a8e5c2ae68db48a87223589db3a16ac437b1298693ab47f394/diff:/var/lib/docker/overlay2/75d4110a28481f104590a4f84212981bfe3b54ba3b9e8e691483622ea02fc7fd/diff:/var/lib/docker/overlay2/f7949077c0e5071dc1a560d31944b32ceca1fbd9777c58ef4b48c1fa91449709/diff:/var/lib/docker/overlay2/49b1efc7874a712efcddf7e8c20a1e9b14d3f502e36afcd4e7b1c087eb18a146/diff:/var/lib/docker/overlay2/7f9e0feebf04bda1e4c1e3955121f7dae3e8e2563e97314b72a1463810c466f7/diff:/var/lib/docker/overlay2/7f31d697af2df392be9a954dbcab4979d43e32e06653bad97cba179055256742/diff:/var/lib/docker/overlay2/0c1e08ba9cd1311b124492670e723c98b8ac5c0996ea4f058858d7001fcc3a7f/diff:/var/lib/docker/overlay2/f3fe5ebca951090076b415b6f148a3efb4e6758875b1a8105747f736e33f9ffa/diff:/var/lib/docker/overlay2/ec6b6cb34c09d564d0972943b51399093fece1b02fc2d2d208b7948593c1900b/diff:/var/lib/docker/overlay2/d2c57a6d1cd72322cb60a89947de803ec24a72617fa2274a2289ee750dfe343f/diff",
+                "MergedDir": "/var/lib/docker/overlay2/22661e456188ea569c71056a890622ce5f4a1c3856eb2549cc254f55f0802c47/merged",
+                "UpperDir": "/var/lib/docker/overlay2/22661e456188ea569c71056a890622ce5f4a1c3856eb2549cc254f55f0802c47/diff",
+                "WorkDir": "/var/lib/docker/overlay2/22661e456188ea569c71056a890622ce5f4a1c3856eb2549cc254f55f0802c47/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/Users/hymd/Programming/MaD",
+                "Destination": "/home/jovyan/work",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "a9b712a4e6da",
+            "Domainname": "",
+            "User": "1000",
+            "AttachStdin": true,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "8888/tcp": {}
+            },
+            "Tty": true,
+            "OpenStdin": true,
+            "StdinOnce": true,
+            "Env": [
+                "JUPYTER_ENABLE_LAB=yes",
+                "PATH=/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "DEBIAN_FRONTEND=noninteractive",
+                "CONDA_DIR=/opt/conda",
+                "SHELL=/bin/bash",
+                "NB_USER=jovyan",
+                "NB_UID=1000",
+                "NB_GID=100",
+                "LC_ALL=en_US.UTF-8",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US.UTF-8",
+                "HOME=/home/jovyan",
+                "MINICONDA_VERSION=4.6.14",
+                "CONDA_VERSION=4.7.10",
+                "XDG_CACHE_HOME=/home/jovyan/.cache/",
+                "JULIA_DEPOT_PATH=/opt/julia",
+                "JULIA_PKGDIR=/opt/julia",
+                "JULIA_VERSION=1.2.0"
+            ],
+            "Cmd": [
+                "start-notebook.sh"
+            ],
+            "Image": "jupyter/datascience-notebook",
+            "Volumes": null,
+            "WorkingDir": "/home/jovyan",
+            "Entrypoint": [
+                "tini",
+                "-g",
+                "--"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "maintainer": "Jupyter Project <jupyter@googlegroups.com>"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "b489b85534fb7ae59f516a99bcf575e2b65b61445bc2415265997e07ca1356c6",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "8888/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "8888"
+                    }
+                ]
+            },
+            "SandboxKey": "/var/run/docker/netns/b489b85534fb",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "f0911690fbf157c8275e28e8ff8866fd280e450492fa3769a96343d564e79534",
+            "Gateway": "172.17.0.1",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "172.17.0.2",
+            "IPPrefixLen": 16,
+            "IPv6Gateway": "",
+            "MacAddress": "02:42:ac:11:00:02",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "1606bd8adc4e161d92285364c51c503e08f0dae7263ef4659c9734fae0271009",
+                    "EndpointID": "f0911690fbf157c8275e28e8ff8866fd280e450492fa3769a96343d564e79534",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:11:00:02",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]
